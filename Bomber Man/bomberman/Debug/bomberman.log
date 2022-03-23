@@ -1,0 +1,139 @@
+﻿  Bomb.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Bomb.cpp(21,36): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Bomb.cpp(48,6): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Bomb.cpp(75,6): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Bomb.cpp(158,20): warning C4018: '<': signed/unsigned mismatch
+  Character.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(32,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(105,19): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(117,37): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(118,36): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(119,42): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(120,42): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(285,21): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(293,26): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(346,39): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(347,43): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(348,52): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Character.cpp(358,43): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Controller.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  Door.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Door.cpp(21,41): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Door.cpp(21,36): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Door.cpp(37,62): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  dumbGuard.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  Edge.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  EmptyCell.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  Guard.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  LevelLoader.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  main.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\main.cpp(208,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Map.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Map.cpp(97,20): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Map.cpp(99,14): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Placeable.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.cpp(65,29): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.cpp(72,29): warning C4244: 'return': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Present.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  Robot.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Robot.cpp(256,15): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Robot.cpp(296,20): warning C4018: '<': signed/unsigned mismatch
+  smartGuard.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(19,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(140,16): warning C4018: '>': signed/unsigned mismatch
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(154,9): warning C4804: '>': unsafe use of type 'bool' in operation
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(160,12): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(168,13): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(232,13): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(233,13): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(234,13): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\smartGuard.cpp(235,9): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Stone.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\Placeable.h(18): error C2102: '&' requires l-value
+  UserInterface.cpp
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\UserInterface.cpp(131,16): warning C4930: 'sf::FloatRect currentViewRect(void)': prototyped function not called (was a variable definition intended?)
+C:\Users\effi\Desktop\CPP-Games\Bomber Man\bomberman\UserInterface.cpp(286,16): warning C4930: 'sf::FloatRect currentViewRect(void)': prototyped function not called (was a variable definition intended?)
+  Generating Code...

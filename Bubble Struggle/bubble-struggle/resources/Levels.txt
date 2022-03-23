@@ -1,0 +1,157 @@
+LEVEL 1 
+Door 500 200 50 20
+Door 1000 600 50 40
+Ball 60 1200 400
+Spikes 
+
+LEVEL 2
+DirectDoor 500 200 50 20
+ZeroDoor 1000 600 100 40
+UpDownBall 40 1200 400
+Spikes 
+
+LEVEL 3
+Wall 0 300  300 50
+Wall 350 300 300 50
+Wall 700 300 300 50
+Wall 1050 300 300 50
+Wall 100 500 300 50
+Wall 550 500 300 50
+Wall 950 500 300 50
+DirectHitBall 200 320
+DirectHitBall 250 320
+DirectHitBall 300 320
+DirectHitBall 350 320
+DirectHitBall 400 320
+DirectHitBall 450 320
+DirectHitBall 500 320
+DirectHitBall 550 320
+DirectHitBall 600 320
+DirectHitBall 650 320
+
+LEVEL 4
+BossBall 500 10
+Spikes
+
+LEVEL 5
+BossBall 500 500
+Wall 150 300 20 250
+Wall 450 300 20 250
+Wall 700 300 20 250
+Wall 1050 300 20 250
+Spikes
+
+LEVEL 6
+Door 500 200 50 20
+BossDoor 1000 600 100 40
+UpDownBall 60 1200 400
+
+LEVEL 7
+ZeroGravityBall 40 400 500
+ZeroGravityBall 50 500 500
+ZeroGravityBall 40 600 700
+ZeroGravityBall 50 700 800 
+ZeroGravityBall 40 800 900 
+ZeroGravityBall 50 900 1000
+Wall 150 300 60 250
+Wall 450 300 60 250
+Wall 700 300 60 250
+Wall 1050 300 60 250
+Wall 850 300 60 250
+Wall 1200 300 60 250
+
+LEVEL 8
+UpDownBall 20 300 100
+UpDownBall 20 300 100
+UpDownBall 20 300 100
+UpDownBall 20 300 100
+UpDownBall 20 300 100
+UpDownBall 20 300 100
+UpDownBall 20 300 100
+UpDownBall 20 300 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+UpDownBall 20 700 100
+Spikes 
+
+LEVEL 9
+UpDownBall 40 600 300
+ZeroGravityBall 40 800 900 
+ZeroGravityBall 20 900 1000
+Door 400 200 100 40
+Spikes
+
+LEVEL 10 
+ZeroGravityBall 40 400 500
+ZeroGravityBall 50 500 500
+ZeroGravityBall 40 600 700
+ZeroGravityBall 50 700 800 
+ZeroGravityBall 40 800 900 
+ZeroGravityBall 50 900 1000
+Wall 1 1 50 600
+Wall 1150 1 50 600
+Wall 310 470 140 70
+
+LEVEL 11
+Ball 60
+Ball 40
+Ball 20 
+Ball 10
+Wall 1 1 50 600
+Wall 1150 1 50 600
+Wall 600 470 40 70
+ZeroGravityBall 40
+ZeroGravityBall 50
+Ball 60
+DirectHitBall 10 15
+DirectHitBall 20 140
+
+LEVEL 12
+Ball 10
+ZeroGravityBall 40 50 50
+ZeroGravityBall 50
+Ball 60
+ProjectileBall 10 10 1200 600
+BossBall 
+LaserItem 230 0
+Ball 60 1300 1400
+Wall 400 1 50 500
+Wall 800 1 50 500
+
+LEVEL 13
+BossBall 500 500
+BossBall 600 700
+LaserItem 0 100
+SheildItem 20 100
+OneUpItem 600 100
+LaserItem 1000 100
+Wall 1 1 50 600
+Wall 1150 1 50 600
+Wall 300 470 400 70
+Door 400 200 100 20
+
+LEVEL 14
+Ball 60
+DirectHitBall 30 110
+DirectHitBall 50 1200
+DirectHitBall 60 110
+DirectHitBall 70 1200
+DirectHitBall 80 110
+DirectHitBall 90 1200
+Ball 80
+Door 1000 600 50 40
+Wall 1 1 50 600
+Wall 1150 1 50 600
+Wall 130 470 140 70
+Spikes
+END
+

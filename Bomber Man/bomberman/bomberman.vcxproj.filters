@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Board.txt" />
+    <Text Include="Highscore.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="dumbGuard.cpp" />
+    <ClCompile Include="Edge.cpp" />
+    <ClCompile Include="EmptyCell.cpp" />
+    <ClCompile Include="Guard.cpp" />
+    <ClCompile Include="LevelLoader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Placeable.cpp" />
+    <ClCompile Include="Present.cpp" />
+    <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="smartGuard.cpp" />
+    <ClCompile Include="Stone.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="CONSTS.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="dumbGuard.h" />
+    <ClInclude Include="Edge.h" />
+    <ClInclude Include="EmptyCell.h" />
+    <ClInclude Include="Guard.h" />
+    <ClInclude Include="LevelLoader.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Placeable.h" />
+    <ClInclude Include="Present.h" />
+    <ClInclude Include="Robot.h" />
+    <ClInclude Include="smartGuard.h" />
+    <ClInclude Include="Stone.h" />
+    <ClInclude Include="UserInterface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

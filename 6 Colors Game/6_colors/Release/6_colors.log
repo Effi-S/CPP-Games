@@ -1,0 +1,15 @@
+﻿  Board.cpp
+  Controller.cpp
+  CPU.cpp
+  ImageLoader.cpp
+  main.cpp
+  Person.cpp
+  Player.cpp
+C:\Users\effi\Desktop\CPP-Games\6 Colors Game\6_colors\Player.cpp(19,21): warning C4018: '<': signed/unsigned mismatch
+  ShapeCell.cpp
+  ToolBar.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 640 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  6_colors.vcxproj -> C:\Users\effi\Desktop\CPP-Games\6 Colors Game\Release\6_colors.exe

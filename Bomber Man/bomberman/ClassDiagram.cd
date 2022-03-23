@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bomb" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAQAIAgAAAAAIAAAIAAAAAAAAAAAAAGgAAAIEAgAUA=</HashCode>
+      <FileName>Bomb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIEAQABAICQAgG4AoAAAoAAAIIEAAACAAAACEAAaCg=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAcAACAAIQAgKgMIAAAAAQCAIAAACBAAAAAAAAAgABY=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Door" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAIAAAAAAAAAAAAAAAAAACgAAAAAAAAAA=</HashCode>
+      <FileName>Door.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dumbGuard" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAACAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dumbGuard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Edge" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAACgAAgAAAAAAA=</HashCode>
+      <FileName>Edge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmptyCell" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABgAAAAAAAAAAAACAAAAAEAAAACACgAAAAEAAAgA=</HashCode>
+      <FileName>EmptyCell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guard" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCAABCAAAAAAAAAAAAEAAACgAAAAAAEAEA=</HashCode>
+      <FileName>Guard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelLoader" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABEBAAACgAAAIAAAMAAAAAISKACEAAAEAAAgIBA=</HashCode>
+      <FileName>LevelLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABAAAAAAAAAAAgAAQEAAAAEAAEEpBQAAABA=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Placeable" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAQAABAAGAAAACBIBAAAAABAAIABACwAQAgEAAAgA=</HashCode>
+      <FileName>Placeable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Present" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAABAAAAAAAAAAAQAAAEACgAAAAAAAAAA=</HashCode>
+      <FileName>Present.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robot" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAACABCKAgAGQAAAAAAAARAAEAAAGggAAAEAQBAA=</HashCode>
+      <FileName>Robot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smartGuard" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAACAAACAFAEAAAAAAAAACAAAgABAAAIAAAA=</HashCode>
+      <FileName>smartGuard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stone" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAACAAAAAAACAAAAQAAAAAAACkAgAAEAACgA=</HashCode>
+      <FileName>Stone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserInterface" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GBACEACgCAAAAiAQAAaICAAAACgCAEAAChgAAAABAwI=</HashCode>
+      <FileName>UserInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="gameInfo" Collapsed="true">
+    <Position X="21" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAIQAAAAAIAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CONSTS.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="toolbar_index_t" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAQAAAAgAABAgAAAAgAAQAAAAAAAA=</HashCode>
+      <FileName>CONSTS.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="img_t" Collapsed="true">
+    <Position X="22.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAApAAAAAIAAAAAAAAAAAAAAAEgAAAQAAAAAABAAAAE=</HashCode>
+      <FileName>CONSTS.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="move_t" Collapsed="true">
+    <Position X="24.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAEAAAAAAAAAAIAAAEAAAAAgBAAA=</HashCode>
+      <FileName>CONSTS.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="action_t" Collapsed="true">
+    <Position X="21" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAgAIBAAA=</HashCode>
+      <FileName>CONSTS.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pres_t" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAGABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CONSTS.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

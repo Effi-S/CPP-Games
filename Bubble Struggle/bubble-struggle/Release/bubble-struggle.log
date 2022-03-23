@@ -1,0 +1,56 @@
+﻿  AbsBall.cpp
+  AbstractItem.cpp
+  AbstractWeapon.cpp
+  Background.cpp
+  Ball.cpp
+  Board.cpp
+  BossBall.cpp
+  Button.cpp
+  CashItem.cpp
+  Command.cpp
+  Controller.cpp
+  DirectHitBall.cpp
+  Door.cpp
+  Drawable.cpp
+  DrawableFactory.cpp
+  Flame.cpp
+  FrozenArrowItem.cpp
+  FrozenWeapon.cpp
+  GameToolBar.cpp
+  HeldBall.cpp
+  Compiling...
+  LaserItem.cpp
+  LaserWeapon.cpp
+  LevelLoader.cpp
+  LivesBar.cpp
+C:\Users\effi\Desktop\CPP-Games\Bubble Struggle\bubble-struggle\LivesBar.cpp(30,15): warning C4834: discarding return value of function with 'nodiscard' attribute
+  LoadScreen.cpp
+  Main.cpp
+  Menu.cpp
+  Moveable.cpp
+  OneUpItem.cpp
+  Player.cpp
+  PlayerOne.cpp
+  PlayerTwo.cpp
+  ProjectileBall.cpp
+  RegisterFunctionTemplates.cpp
+  ResourceManager.cpp
+  Sheild.cpp
+  SheildItem.cpp
+  SimpleArrow.cpp
+  SimpleArrowItem.cpp
+  Sound.cpp
+  Compiling...
+  Spikes.cpp
+  TimeItem.cpp
+  Unmoveable.cpp
+  UpDownBall.cpp
+  Wall.cpp
+  WindowCONST.cpp
+  youSure.cpp
+  ZeroGravityBall.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2880 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  bubble-struggle.vcxproj -> C:\Users\effi\Desktop\CPP-Games\Bubble Struggle\Release\bubble-struggle.exe
