@@ -1,9 +1,5 @@
 /*Bomberman
 ***************************************
-Author: Efrayim sztokman
-	User : Efrayimsz
-	ID : 315704130
-
 	Files :
 
 	Controller.cpp and Controller.h - controls the game.
