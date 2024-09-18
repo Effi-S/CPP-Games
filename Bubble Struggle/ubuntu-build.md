@@ -15,5 +15,6 @@ cp bubble-struggle/resources/ -r build
 ```
 3. Run built executable
 ```bash
-./build/project_release
+cd ./build
+./project_release
 ```
