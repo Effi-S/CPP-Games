@@ -1,5 +1,11 @@
 #include "CPU.h"
+#ifdef MAKELINUX
+#include <gtk/gtk.h>
+#include <iostream>
+#include <cstdlib>
+#else
 #include "Windows.h"
+#endif
 
 sf::Color MY_COLORS[6] = {
 	sf::Color::Red,
@@ -38,7 +44,27 @@ void CPU::move(sf::Color color)
 //prints that the Cpu won. 
 void CPU::iWin() const
 {	
-	MessageBoxA(NULL,"You Lose",
+
+#ifdef MAKELINUX
+	std::cout << "You Lose:(" << std::endl;
+    std::cout << "better Luck Next Time!" << std::endl;
+
+    gtk_init(nullptr, nullptr);
+    GtkWidget *dialog = gtk_message_dialog_new(nullptr,
+                                                GTK_DIALOG_MODAL,
+                                                GTK_MESSAGE_INFO,
+                                                GTK_BUTTONS_OK,
+                                                "You Lose :(");
+    gtk_window_set_title(GTK_WINDOW(dialog), "better Luck Next Time!");
+    gtk_dialog_run(GTK_DIALOG(dialog));
+    gtk_widget_destroy(dialog);
+    while (g_main_context_iteration(nullptr, FALSE));
+    std::exit(0); // Exit the application
+#else
+
+	MessageBoxA(NULL,"You Lose :(",
 		"better Luck Next Time", MB_OK);
 	SendMessageA(NULL, WM_CLOSE, 0, 0);
+#endif
+
 }

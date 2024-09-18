@@ -1,5 +1,10 @@
 #include "Player.h"
-#include <Windows.h>
+#ifdef MAKELINUX
+#include <iostream>
+#include <cstdlib>
+#else
+#include "Windows.h"
+#endif
 
 Player::Player(ShapeCell * starter)
 {
