@@ -13,8 +13,8 @@ what has happend in the game.
 //============include section================
 #include "UserInterface.h"
 #include <SFML/System.hpp>
+#include <unistd.h>
 #include <fstream>
-#include <Windows.h>
 //=============================================
 
 //========constructor===============
@@ -144,7 +144,7 @@ void UserInterface::printToScreen(sf::Texture &img) const
 
 	m_window.display();
 
-	Sleep(3000);
+	usleep(3000 * 1000);
 }
 //=============================
 
@@ -258,7 +258,7 @@ action_t UserInterface::RunBar(const sf::Vector2f & mouseplace, const sf::Vector
 		
 		}
 		else
-			m_toolbar[i].setFillColor(sf::Color::Color(216, 216, 255, 216));
+			m_toolbar[i].setFillColor(sf::Color(216, 216, 255, 216));
 
 	}
 	return NO_ACTION;

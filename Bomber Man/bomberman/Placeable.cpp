@@ -15,13 +15,16 @@ Placeable::Placeable(sf::RenderWindow &window, sf::Vector2f pos ,
 	sf::Texture *img, sf::RectangleShape Rect)
 	:m_window(window) , m_rect(Rect), m_origPos(pos) ,m_image(img)
 {
+	if (img == nullptr) {
+        img = new sf::Texture();
+    }
 	m_empty = true;
 		
 	sf::RectangleShape rect;
 
 	rect.setSize(CELLSIZE);
 
-	rect.setOutlineColor(sf::Color::Color(216, 216, 255, 216));
+	rect.setOutlineColor(sf::Color(216, 216, 255, 216));
 
 	rect.setTexture(img);
 	

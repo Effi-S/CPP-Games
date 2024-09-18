@@ -8,8 +8,8 @@
 //**********
 //=========include section ==========
 #include "Door.h"
-#include <Windows.h>
 #include "Robot.h"
+#include <unistd.h>
 //======================
 
 //====constructor==================
@@ -42,7 +42,7 @@ void Door::collideWith(Robot & other)
 
 	m_window.draw(m_rect);
 
-	Sleep(500);
+	usleep(500 * 1000);
 
 	other.collideWith(*this);
 

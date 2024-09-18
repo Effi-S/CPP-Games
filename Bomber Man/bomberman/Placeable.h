@@ -17,7 +17,7 @@ class Placeable
 public:
 	Placeable(sf::RenderWindow &window,
 		sf::Vector2f pos = (sf::Vector2f(0, 0)),
-		sf::Texture *img = &sf::Texture(),
+		sf::Texture *img = nullptr,
 		sf::RectangleShape rect = sf::RectangleShape()
 	);
 

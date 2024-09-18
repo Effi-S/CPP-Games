@@ -187,6 +187,7 @@ Known Bugs: bomb not always displayed after it hits Robot.
 #pragma comment ( lib , "sfml-graphics-s.lib" )
 #pragma comment ( lib , "sfml-audio-s.lib" )
 #pragma comment ( lib , "sfml-main.lib" )
+#elif defined (MAKELINUX)
 #else
 #error "Unrecognized configuration!"
 #endif

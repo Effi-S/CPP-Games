@@ -43,7 +43,7 @@ LevelLoader::LevelLoader(int curLvl)
 
 	if (!lvlfile.is_open())
 	{
-		std::cerr << "cannot open file \n";
+		std::cerr << "cannot open board.txt \n";
 		exit(EXIT_FAILURE);
 	}
 

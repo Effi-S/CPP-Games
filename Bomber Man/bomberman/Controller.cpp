@@ -12,7 +12,6 @@
 #include "Controller.h"
 #include <fstream>
 #include<cstring>
-#include <Windows.h>
 
 //===================================================
 //constructor receuves the levelLoader of the game.
@@ -184,18 +183,18 @@ void Controller::drawInfo()
 	//time
 	int temp = (int)m_timeLeft.asSeconds() + m_robot->getInfo().time;
 
-	sprintf_s(timeStr, "%d", temp);
+	sprintf(timeStr, "%d", temp);
 
 	m_gameInfoText[bar_time_t-2].setString(timeStr);
 	//lives:
-	sprintf_s(livesStr, "%d", m_robot->getInfo().lives);
+	sprintf(livesStr, "%d", m_robot->getInfo().lives);
 
 	m_gameInfoText[bar_lives_t-2].setString(livesStr);
 
 	
 
 	//bombs:
-	sprintf_s(bombStr, "%d", m_robot->getInfo().bombs);
+	sprintf(bombStr, "%d", m_robot->getInfo().bombs);
 
 	
 	if (m_robot->getInfo().bombs < 0)
@@ -208,12 +207,12 @@ void Controller::drawInfo()
 	//score:
 	int score = m_robot->getInfo().score + m_score;
 
-	sprintf_s(scoreStr, "%d", score);
+	sprintf(scoreStr, "%d", score);
 
 	m_gameInfoText[bar_score_t - 2].setString(scoreStr);
 
 	//Level:	
-	sprintf_s(lvlStr, "%d", m_lvlLoader.getCurLvl());
+	sprintf(lvlStr, "%d", m_lvlLoader.getCurLvl());
 
 	m_gameInfoText[bar_lvl_t -2].setString(lvlStr);
 
