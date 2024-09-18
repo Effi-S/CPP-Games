@@ -1,4 +1,5 @@
 #include "ProjectileBall.h"
+#include <cmath>
 #include "Ball.h"
 #include "Wall.h"
 #include "AbstractWeapon.h"

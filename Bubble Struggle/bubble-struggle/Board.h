@@ -4,6 +4,8 @@
 //objects of the game and can print them and 
 //updating them as the game is run.
 #pragma once
+#include <memory>
+#include <vector>
 #include "ResourceManager.h"
 #include "Player.h"
 #include "Unmoveable.h"

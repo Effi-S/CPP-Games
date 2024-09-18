@@ -1,4 +1,6 @@
 #pragma once
+#include <memory>
+#include <vector>
 #include "Moveable.h"
 #include "LivesBar.h"
 #include <array>

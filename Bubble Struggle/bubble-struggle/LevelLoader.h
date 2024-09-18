@@ -23,7 +23,7 @@ public :
 	void LoadNextLevel();
 	void ReloadLevel();
 	void setCurrLvl(int lvl) { m_currLvlIndex = lvl; }
-	bool isLastLevel() const { return m_currLvlIndex == m_lvls.size() - 1; }
+	bool isLastLevel() const { return static_cast<std::size_t>(m_currLvlIndex) == m_lvls.size() - 1; }
 	LevelLoader();
 	~LevelLoader();
 private:

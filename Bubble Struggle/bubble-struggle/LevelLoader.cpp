@@ -9,7 +9,7 @@
 void LevelLoader::LoadNextLevel()
 {
 	
-	(m_currLvlIndex == m_lvls.size() - 1) ? m_currLvlIndex = 0 : m_currLvlIndex++;
+	(static_cast<std::size_t>(m_currLvlIndex) == m_lvls.size() - 1) ? m_currLvlIndex = 0 : m_currLvlIndex++;
 	
 	Board::inst().nextLvl();
 

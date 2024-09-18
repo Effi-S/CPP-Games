@@ -6,6 +6,8 @@
 //and prints all this at the bottom 20 
 //percent of the screen.
 #pragma once
+#include <memory>
+#include <vector>
 #include "ResourceManager.h"
 #include "WindowCONST.h"
 #include "Unmoveable.h"
