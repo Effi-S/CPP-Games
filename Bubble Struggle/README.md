@@ -1,7 +1,5 @@
 # Bubble Struggle Game
 
-Presenters: Efrayim Sztokman and Itay Mizrahi 
-
 ### General Explanation:
 This Is a game Where the player/s must avoid bouncing balls , that bounce all over the screen  the player can shoot the balls  only once all of the balls that are on the screen are gone can the player/s move on to the next level.
 
