@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <string>
 #include <queue>
+#include <iostream>
 
 ResourceManager* ResourceManager::instance()
 {
@@ -127,9 +128,17 @@ void ResourceManager::loadTexture(std::string path, Texture name)
 
 void ResourceManager::loadSound(std::string path, Sound name)
 {
+#ifndef MAKELINUX
 	sf::SoundBuffer *temp = new sf::SoundBuffer();
+	if (!temp->loadFromFile(path)) {
+        std::cerr << "Failed to load sound file: " << path << std::endl;
+        delete temp;
+		m_sounds[name] = nullptr;
+        return;
+    }
 	temp->loadFromFile(path);
 	m_sounds[name] = temp;
+#endif
 }
 
 void ResourceManager::loadFont(std::string path, Font name)

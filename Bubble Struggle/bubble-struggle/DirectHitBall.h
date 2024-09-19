@@ -2,6 +2,7 @@
 //derrived from abstractBall 
 //this class is a ball that can only be removed if hit directly.
 #pragma once
+#include <memory>
 #include "AbsBall.h"
 #include "WindowCONST.h"
 class DirectHitBall :

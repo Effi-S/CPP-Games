@@ -1,7 +1,8 @@
 # Compiler and flags
 CXX = g++
-CXXFLAGS = -Wall -O3 -std=c++17
+CXXFLAGS = -O3 -std=c++17
 CXXFLAGS += -DMAKELINUX
+CXXFLAGS += -DMAKEDOCKER
 
 # SFML include and library paths (install: apt-get install libsfml-dev)
 SFML_LIBS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio

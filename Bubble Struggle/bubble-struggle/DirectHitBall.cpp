@@ -1,4 +1,5 @@
 #include "DirectHitBall.h"
+#include <memory>
 #include <cmath>
 #include "Board.h"
 #include "DrawableFactory.h"

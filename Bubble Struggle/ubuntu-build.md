@@ -1,4 +1,8 @@
 # Steps to build on Ubuntu
+0. Optional - Some features are removed for docker, Comment out This line in Makefile to add them back again:
+
+`CXXFLAGS += -DMAKEDOCKER`
+
 1. install make and SFML
 ```bash
 sudo apt update
