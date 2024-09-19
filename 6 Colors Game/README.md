@@ -1,3 +1,4 @@
+[back](../README.md)
 # Ex4: 6 Colors Game
 
 ## Docker

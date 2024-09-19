@@ -1,10 +1,10 @@
+[back](../README.md)
 # Bubble Struggle Game
 
 ### Docker
 build and run the Docker container using the following commands:
 ```sh
-docker build -t bubble-struggle .
-docker run -it --rm bubble-struggle
+docker build -t bubble-struggle . && sudo docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --rm bubble-struggle
 ```
 ### General Explanation:
 This Is a game Where the player/s must avoid bouncing balls , that bounce all over the screen  the player can shoot the balls  only once all of the balls that are on the screen are gone can the player/s move on to the next level.
