@@ -1,5 +1,11 @@
 # Bomberman
 
+## Docker Build & Run
+```bash
+docker build -t bomberman .
+docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --rm bomberman
+```
+
 ## Game Overview
 This is a Bomberman game where the player navigates through levels, planting bombs to defeat guards and uncover doors to progress. The player has 5 lives per level and must avoid bombs and guards while completing the level before time runs out.
 

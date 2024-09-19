@@ -5,7 +5,7 @@ You can build and run the image using the following command:
 
 ```bash
 docker build -t ex4-6-colors .
-docker run --rm ex4-6-colors
+docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --rm ex4-6-colors
 ```
 
 

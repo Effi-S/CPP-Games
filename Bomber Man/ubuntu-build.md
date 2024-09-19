@@ -11,7 +11,8 @@ make clean && make
 ```
 3. Copy resources
 ```bash
-cp bubble-struggle/resources/ -r build
+cp bomberman/*.txt  build
+cp  -r bomberman/menu_buttons/  bomberman/toolbar_buttons/ bomberman/images/  build
 ```
 3. Run built executable
 ```bash
