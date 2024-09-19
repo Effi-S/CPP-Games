@@ -1,5 +1,14 @@
 # Ex4: 6 Colors Game
 
+## Docker
+You can build and run the image using the following command:
+
+```bash
+docker build -t ex4-6-colors .
+docker run --rm ex4-6-colors
+```
+
+
 ## Overview:
 This is a strategic game where two players (user vs CPU or two users) compete to claim the majority of a board by changing the color of connected shapes.
 
